@@ -1,0 +1,82 @@
+.major-grid{
+    height:200px;
+    display: flex;
+    background-color:dimgray;
+}
+#heading1{
+    align-content: center;
+    text-align: center;
+    flex:1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: 80px;
+}
+#sd2{
+    background-color:dimgray;
+    height:100px;
+    margin:1px;
+    color: white;
+    font-size: 20px;
+    gap: 50px;
+}
+#idiv2{
+    background-color:dimgrey;
+    height:50px;
+    padding:20px;
+    flex:1;
+    gap:100px;
+    justify-content: center;
+
+}
+#eraserbtn{
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-weight: bolder;
+}
+#aboutbtn{
+    border-radius: 5px;
+    background-color:aliceblue;
+    font-weight: bolder;
+}
+#rainbowbutton{
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-weight: bolder;
+}
+#clearbutton{
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-weight: bolder;
+}
+#defaultbutton{
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-weight: bolder;
+}
+#mflex{
+    height:650px;
+    display:flex;
+    justify-content: center;
+}
+#grid1{
+    background-color:aliceblue;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height:500px;
+    width:500px;
+    display:grid;
+    border: 5px solid black;
+    border-radius:10px;
+    grid-template-columns: repeat(16, 1fr); 
+    grid-template-rows: repeat(16, 1fr); 
+}
+#ip1{
+    background-color:dimgray;
+    height:100px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: larger;
+}
